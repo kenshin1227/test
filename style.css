@@ -1,0 +1,53 @@
+body {
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  flex-direction: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+  background-color: rgb(252, 249, 249, 0.9)
+}
+
+
+#box1:hover {
+  cursor: pointer;
+  color: red;
+}
+
+#box2 {
+  display: flex;
+  flex-direction: row;
+  justify-content :center;
+  gap: 1.25em;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-size: small;
+}
+
+#box2 li:hover {
+  cursor: pointer;
+  color: red;
+}
+
+#introbox {
+
+}
+#frist {
+  display: flex;
+  justify-content: center;
+}
+
+#button{
+  color: white;
+  cursor: pointer;
+  padding: 1em 1.7em;
+  background-color: red;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: black;
+}
+
