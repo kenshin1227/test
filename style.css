@@ -113,7 +113,7 @@ header {
   margin: 2em 0;
 }
 
-#us{
+#red{
   color:red;
 }
 
@@ -123,7 +123,6 @@ header {
   width: 100%;
   display: flex;
   justify-content: center; 
-  gap: wrap;
 }
 
 #aboutusContainer {
@@ -138,7 +137,7 @@ header {
 #aboutusLeft {
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: center;
   margin-right: 1.75em;
   }
 
@@ -173,10 +172,210 @@ header {
 
 
 #aboutusRight {
-    width: 100%;
-    height: 200%;  
-    background-size: fixed;
-    background-repeat: no-repeat;
+  width: 200%;
+  height: 80%;
+  margin-top: 0;
+  background-position: bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
     background-image: url("https://try.htmldemo.net/ronak-v1/assets/img/banner/about.jpg");
   }
 
+
+
+ /* Our Portfolio */ 
+
+#list {
+  display: flex;
+  flex-direction: center;
+  justify-content: space-around;
+  background-color: white;
+}
+
+#listBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2em 3em;
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-size: border;
+}
+
+#listBox li:hover {
+  cursor: pointer;
+  color: rgba(238, 46, 62, 0.911);
+}
+
+
+#imgBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2em;
+  /*column-gap: wrap; */
+  width: 100%;
+
+}
+
+
+#developer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#developer h3:hover {
+  cursor: pointer;
+  color: rgba(238, 46, 62, 0.911);
+}
+
+
+#designer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#designer h3:hover {
+  cursor: pointer;
+  color: rgba(238, 46, 62, 0.911);
+}
+
+#freelancer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#freelancer h3:hover {
+  cursor: pointer;
+  color: rgba(238, 46, 62, 0.911);
+}
+
+
+#photography {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#photography h3:hover {
+  cursor: pointer;
+  color: rgba(238, 46, 62, 0.911);
+}
+
+#branding {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#branding h3:hover {
+  cursor: pointer;
+  color: rgba(238, 46, 62, 0.911);
+}
+
+
+
+
+
+
+
+
+/* Our Service */
+
+#design {
+  display: flex;
+  flex-direction: center;
+}
+
+
+
+
+
+
+
+
+/* Latest News */
+
+#lastest {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#post1 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  box-shadow: 5px 5px 3px rgba(218, 217, 217, 0.2);
+}
+#post1 h3:hover {
+  cursor: pointer;
+  color: rgba(238, 46, 62, 0.911);
+}
+#post1 h4:hover {
+  cursor: pointer;
+  color: rgba(238, 46, 62, 0.911);
+}
+
+#post2 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  box-shadow: 5px 5px 3px rgba(218, 217, 217, 0.2);
+}
+#post2 h3:hover {
+  cursor: pointer;
+  color: rgba(238, 46, 62, 0.911);
+}
+#post2 h4:hover {
+  cursor: pointer;
+  color: rgba(238, 46, 62, 0.911);
+}
+
+#post3 {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  box-shadow: 5px 5px 3px rgba(218, 217, 217, 0.2);
+}
+#post3 h3:hover {
+  cursor: pointer;
+  color: rgba(238, 46, 62, 0.911);
+}
+#post3 h4:hover {
+  cursor: pointer;
+  color: rgba(238, 46, 62, 0.911);
+}
+
+
+/* Last Box */
+
+#lastBox {
+  width: 100%;
+  height: 15em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 5em;
+  background-color: rgba(19, 17, 17, 0.9);
+  color: white;
+}
+
+#last1 {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ margin-top: 5em;
+}
+
+#last2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+ }
+
+ #last3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5em;
+ }
